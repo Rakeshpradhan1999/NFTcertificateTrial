@@ -1,0 +1,15 @@
+.mobile-view-connect-button-wrapper {
+  display: none;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .mobile-view-connect-button-wrapper {
+    display: block;
+    margin-top: 150px;
+  }
+}
