@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
-import headerlogo from "../../assets/ethereal-sloths-logo.svg";
 import "./header.css";
 
 const Header = ({ account, loadWeb3 }) => {
