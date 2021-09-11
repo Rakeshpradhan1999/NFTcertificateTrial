@@ -18,11 +18,6 @@ const Header = ({ account, loadWeb3 }) => {
     <>
       <div className="header-main-wrapper">
         <div className="header-inner-wrapper">
-          <div className="header-logo-wrapper">
-            <div className="logo-wrapper">
-              <img src={headerlogo} alt="headerlogo" />
-            </div>
-          </div>
           <div className="header-links-wrapper">
             <ul>
               {/* style={{ color: "#c3e747" }} */}

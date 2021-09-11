@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #1B0F49;
+  background-color: #1b0f49;
   z-index: 10;
 }
 
@@ -43,7 +43,9 @@
 .logo-title-wrapper h1 .right {
   color: #f25ea3;
 }
-
+.header-links-wrapper {
+  margin-left: auto;
+}
 .header-links-wrapper ul {
   display: flex;
   justify-content: center;
@@ -79,6 +81,7 @@
   font-size: 18px;
   line-height: 21.09px;
   color: #1d104a;
+  margin-left: auto;
 }
 
 .humbarger-btn {
