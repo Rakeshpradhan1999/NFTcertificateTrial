@@ -12,14 +12,6 @@ const Home = ({ account, mint, totalSupply, displayPrice, loadWeb3 }) => {
     <div style={{ backgroundColor: "#1D1F4A" }}>
       <div className="banner">
         <Header account={account} loadWeb3={loadWeb3} />
-        <div className="mobile-view-connect-button-wrapper">
-          <button className="header-connect-button" onClick={() => loadWeb3()}>
-            {account
-              ? account.slice(0, 8) + "..." + account.slice(account.length - 5)
-              : "CONNECT"}
-          </button>
-          I
-        </div>
 
         <AfterLaunch totalSupply={totalSupply} account={account} mint={mint} />
       </div>
